@@ -1,0 +1,1 @@
+n = int(input("Enter N: ")) sum = 0 for i in range(1, n + 1):    num = int(input("Enter number: "))    sum += num average = sum / n print("Sum =", sum) print("Average =", average)
