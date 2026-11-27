@@ -1,1 +1,12 @@
-year = int(input("Enter year: ")) if year % 400 == 0:    print("Leap Year") elif year % 100 == 0:    print("Not a Leap Year") elif year % 4 == 0:    print("Leap Year") else:    print("Not a Leap Year")
+name = "Sujith"
+age = 19
+marks = 90
+
+# Using format() method
+print("Name: {}, Age: {}, Marks: {}".format(name, age, marks))
+
+# Using f-strings
+print(f"Name: {name}, Age: {age}, Marks: {marks}")
+
+# Using % operator
+print("Name: %s, Age: %d, Marks: %d" % (name, age, marks))
