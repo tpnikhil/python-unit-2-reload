@@ -1,0 +1,1 @@
+s = "  Hello Python  " print(s.upper()) print(s.lower()) print(s.strip()) print(s.split()) words = ["Hello", "Python"] print(" ".join(words)) print(s.replace("Python", "World")) print(s.find("Python"))
