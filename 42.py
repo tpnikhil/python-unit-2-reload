@@ -1,0 +1,1 @@
+s1 = "Hello" s2 = "Python" # Concatenation print(s1 + " " + s2) # Repetition print(s1 * 3) # Slicing print(s2[0:3]) print(s2[::-1])
